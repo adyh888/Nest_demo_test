@@ -20,9 +20,9 @@ export class User {
   @Column({ default: true })
   isActive: boolean;
 
-  @Column('time')
+  @Column('datetime')
   createtime: string;
 
-  @Column('time')
+  @Column('datetime')
   updatetime: string;
 }
