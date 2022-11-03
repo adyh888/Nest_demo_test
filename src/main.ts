@@ -33,7 +33,7 @@ async function bootstrap() {
 
   // 默认情况下，`Fastify`仅在 `localhost 127.0.0.1` 接口上监听
   // 改成 0.0.0.0 接受其他主机上的连接
-  await app.listen(3000, '0.0.0.0');
+  await app.listen(3300, '0.0.0.0');
 
 }
 bootstrap();
